@@ -1,5 +1,7 @@
+---
+version: "2"
 plugins:
   editorconfig:
     enabled: true
- reek:
+  reek:
     enabled: true
