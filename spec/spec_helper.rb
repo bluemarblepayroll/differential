@@ -9,9 +9,9 @@
 
 require 'ostruct'
 
-require './lib/differential'
-
 require 'simplecov'
 require 'simplecov-console'
 SimpleCov.formatter = SimpleCov::Formatter::Console
 SimpleCov.start
+
+require './lib/differential'
